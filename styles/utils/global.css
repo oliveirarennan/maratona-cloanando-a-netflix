@@ -1,0 +1,8 @@
+body{
+  background-color: #000000;
+}
+
+p,h1,h2,h3,span,strong{
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}

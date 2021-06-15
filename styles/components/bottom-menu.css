@@ -1,0 +1,23 @@
+.bottom-menu__container{
+  background-color: #121212;
+}
+.bottom-menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding-top:10px;
+  padding-bottom:10px;
+  
+}
+.bottom-menu__icon{
+  text-align: center;
+}
+.bottom-menu__icon p{
+  font-size: 8px;
+  text-align: center;
+  font-weight: 500;
+  color: #8C8787;
+  margin-top: 2px; ;
+}

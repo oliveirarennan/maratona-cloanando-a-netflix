@@ -21,3 +21,7 @@
   color: #8C8787;
   margin-top: 2px; ;
 }
+
+.bottom-menu__icon p.active{
+  color: #ffffff;
+}

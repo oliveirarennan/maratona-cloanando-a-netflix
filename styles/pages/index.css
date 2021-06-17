@@ -1,4 +1,8 @@
 @import "../utils/index.css";
 @import "../components/status-bar.css";
+@import "../components/navbar.css";
 @import "../components/bottom-menu.css";
+@import "../components/play.css";
+@import "../components/movie.css";
+@import "../components/search-movie.css";
 

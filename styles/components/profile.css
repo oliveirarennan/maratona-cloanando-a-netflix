@@ -1,0 +1,40 @@
+.profile{
+  display: flex;
+  width: 90vw;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.profile__group{
+  text-align: center;
+}
+.profile__img{
+  width: 65px;
+  height: 60px;
+  transition: transform ease-in-out 200ms;
+}
+.profile__img:hover{
+  transform: scale(1.1);
+}
+
+.profile__img--big{
+  width: 100px;
+  height: 92px;
+  transition: transform ease-in-out 200ms;
+}
+.profile__img--big:hover{
+  transform: scale(1.1);
+}
+
+.profile__text{
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.profile--grid{
+  
+  display: grid;
+  grid-template-columns: 100px 100px;
+  gap: 22px;
+  justify-content: center;
+}

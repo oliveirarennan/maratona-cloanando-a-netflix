@@ -1,0 +1,21 @@
+@import "../utils/index.css";
+@import "../components/status-bar.css";
+@import "../components/profile.css";
+
+@keyframes pageLoad{
+  0%{
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100%{
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+body{
+  animation-name: pageLoad;
+  animation-duration: 700ms;
+}
+
+

@@ -1,0 +1,25 @@
+.search-input{
+  display: flex;
+  align-items: center;
+  padding: 18px 0;
+  width: 90%; 
+  margin: 0 auto;
+}
+.search-input__background{
+  background-color: #424242;
+}
+.search-input__img{
+  width: 24px;
+}
+.search-input__input{
+  border: none;
+  background: none;
+  width: 100%;
+  outline: none;
+  color: #fff;
+  font-size: 15px;
+  margin-left: 5px
+}
+.search-input__input::placeholder{
+  color: #c4c4c4;
+}

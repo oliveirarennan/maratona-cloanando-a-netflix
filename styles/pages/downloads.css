@@ -1,0 +1,76 @@
+@import "../utils/index.css";
+@import "../components/status-bar.css";
+@import "../components/bottom-menu.css";
+
+.bottom-menu__container{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.center{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.smart-downloads{
+  display: flex;
+  align-items: center;
+  
+}
+
+.smart-downloads__img{
+  width: 15px;
+}
+.smart-downloads__text{
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+.titles{
+ margin-top: 35px;
+ margin-bottom: 31px;
+ text-align: left;
+}
+
+.titles__main{
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.titles__secondary{
+  font-size: 11px;
+  line-height: 18px;
+}
+.image{
+  width: 177px;
+  height: 177px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.setup{
+  margin-top: 20px;
+  width: 100%;
+  border: none;
+  text-transform: uppercase;
+  background-color: #0071eb;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 2px;
+  padding: 6px 0;
+  line-height: 28px;
+}
+
+.find{
+  margin-top: 50px;
+  border: none;
+  text-transform: uppercase;
+  padding: 11px;
+  color: #fff;
+  background-color: #424242;
+  font-weight: 700;
+  font-size: 17px;
+  border-radius: 3px;
+}

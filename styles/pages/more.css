@@ -1,0 +1,11 @@
+@import "../utils/index.css";
+@import "../components/status-bar.css";
+@import "../components/profile.css";
+@import "../components/share.css";
+@import "../components/bottom-menu.css";
+
+.bottom-menu__container{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}

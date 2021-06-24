@@ -1,0 +1,74 @@
+.share{
+  background-color: #1A1A1A;
+}
+
+.share-content{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.share-content-title{
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.share-content-title__text{
+  margin-left: 9px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.share-content__subtitle{
+  font-size: 11px;
+  line-height: 18px;
+  margin-bottom: 8px;
+}
+.share-content__terms{
+  margin-bottom: 11px;
+}
+.share-content__terms a{
+  text-decoration: underline;
+  color: #C4C4C4;
+  font-size: 11px;
+  font-weight: 500;
+}
+.share-content-copy{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 21px;
+  gap: 7px;
+}
+.share-content-copy__input{
+  outline: transparent;
+  border: none;
+  color: #FFF;
+  background-color: #000;
+  padding: 10px;
+  flex: 1;
+  font-size: 11px;
+}
+.share-content-copy__input::placeholder{
+  color: #fff;
+}
+
+.share-content-copy__btn{
+  border: none;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 2px;
+  padding: 5px 12px;
+}
+.share-content-social{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.share-content-social__division{
+  width: 1px;
+  height: 41px;
+  background-color: #8C8787;
+}

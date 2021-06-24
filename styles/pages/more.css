@@ -2,6 +2,7 @@
 @import "../components/status-bar.css";
 @import "../components/profile.css";
 @import "../components/share.css";
+@import "../components/settings.css";
 @import "../components/bottom-menu.css";
 
 .bottom-menu__container{
